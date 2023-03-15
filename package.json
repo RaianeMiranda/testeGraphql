@@ -1,19 +1,25 @@
 {
+  "name": "graphqldocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaianeMiranda/testeGraphql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaianeMiranda/testeGraphql/issues"
+  },
+  "homepage": "https://github.com/RaianeMiranda/testeGraphql#readme",
   "dependencies": {
     "express": "^4.18.2",
     "express-graphql": "^0.12.0",
     "graphql": "^16.6.0",
-    "mysql2": "^3.2.0",
     "nodemon": "^2.0.21"
-  },
-  "name": "graphqldocks",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start":"nodemon ./index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }
